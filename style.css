@@ -1,0 +1,38 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+h1 {
+  color: red;
+}
+#heading-id {
+  color: red;
+}
+.heading-class {
+  color: violet;
+}
+h1.heading#heading-1 {
+  color: bisque !important;
+}
+h1.heading#heading-1 {
+  color: aquamarine;
+}
+#heading-1.heading {
+  color: blueviolet;
+}
+#heading-1 {
+  color: yellow;
+}
+.heading {
+  color: blue;
+}
+ul li {
+  color: orange;
+}
+section > p {
+  color: aqua;
+}
+div > p {
+  color: red;
+}
